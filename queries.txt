@@ -1,0 +1,49 @@
+INSERT INTO `Drivers` (`DriverID`, `VehicleID`) VALUES ('78375', '4444'), ('53052', '8488'), ('68088', '7727'), ('34510', '3479'), ('75591', '8643'), ('74045', '9246'), ('97103', '3570'), ('57585', '7384'), ('44884', '1380'), ('51679', '2607'), ('99512', '9656'), ('89650', '9550'), ('96238', '5945')
+
+CREATE TABLE Drivers(
+DriverID int PRIMARY KEY,
+VehicleID int
+);
+
+CREATE TABLE Locations (
+LocationID int AUTO_INCREMENT PRIMARY KEY,
+SiteType varchar(100),
+Name varchar(100),
+ParkingSize varchar(100),
+Showers varchar(3),
+Overnight varchar(3),
+Latitude double,
+Longituded double,
+Number int,
+Street varchar(100),
+City varchar(100),
+State varchar(3),
+County varchar(100),
+Zip int,
+Country varchar(100),
+isTerminal boolean
+);
+
+CREATE TABLE IdlingData2016 (
+RecordID int AUTO_INCREMENT PRIMARY KEY,
+SiteType varchar(100),
+Name varchar(100),
+ParkingSize varchar(100),
+Showers varchar(3),
+Overnight varchar(3),
+Latitude double,
+Longituded double,
+Number int,
+Street varchar(100),
+City varchar(100),
+State varchar(3),
+County varchar(100),
+Zip int,
+Country varchar(100),
+isTerminal boolean,
+StartTime varchar(100),
+EndTime varchar(100),
+Duration int,
+DriverID int,
+VehicleID int
+);
