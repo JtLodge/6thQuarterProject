@@ -1,15 +1,35 @@
 
+.homebody {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(19,57,128);
+}
+
+
+.loginbody {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(19,57,128);
+}
+
+
 .fcolor
 {
-  
     color: rgb(171, 197, 156);
 }
 
-html,
-.loginbody {
-  height: 100%;
-   
+footer
+{
+    padding 20px;
+    text-align: center;
+    margin-top: 20px;
 }
+
+
+
+
 
 .form-signin .hcolor
 {
@@ -23,14 +43,6 @@ html,
    
 }
  
-
-body {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: rgb(19,57,128);
-}
 
 .form-signin {
   width: 100%;
