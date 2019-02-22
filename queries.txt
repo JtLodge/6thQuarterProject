@@ -47,3 +47,36 @@ Duration int,
 DriverID int,
 VehicleID int
 );
+
+public PreparedStatement getPrepState(String sql)
+    {
+        try
+        {
+            return con.prepareStatement(sql);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+            return null;
+        }
+    }
+    public void insertQuery(PreparedStatement prepstate)
+    {
+        try
+        {
+            prepstate.executeUpdate();
+        } 
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+import java.sql.PreparedStatement;
+example use in jsp file: prepstate = con.getPrepState("INSERT INTO Drivers (DriverID, VehicleID) VALUES (?, ?);");
+            prepstate.setString(1, "Hello!");
+            prepstate.setString(2, "Goodbye!");
+con.insertQuery(prepstate);
+
+alter table users add vehicleID int
+alter table users add email varchar(100)
