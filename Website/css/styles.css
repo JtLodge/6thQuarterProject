@@ -1,0 +1,88 @@
+
+.homebody {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(19,57,128);
+}
+
+
+.loginbody {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(19,57,128);
+}
+
+.carousel-inner img {
+  width: auto;
+  height: 700px;
+  max-height: 1000px;
+}
+
+.cbcolor 
+{
+    color: rgb(171, 197, 156);
+}
+
+.fcolor 
+{
+    color: rgb(171, 197, 156);
+}
+
+footer
+{
+    padding 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-signin .hcolor
+{
+    color: rgb(177, 229, 147);
+    text-align: center;
+}
+ 
+.ct
+{
+    color: white;
+   
+}
+
+.form-signin .cbcolor .ct
+{
+    color: rgb(177, 229, 147);
+   
+}
+ 
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color: rgb(19,57,128);
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
